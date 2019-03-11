@@ -1,7 +1,8 @@
-# Official Python STEEM Library
+# Official Python BEARShares Library
+WORK IN PROGRESS
 
-`steem-python` is the official Steem library for Python. It comes with a
-BIP38 encrypted wallet and a practical CLI utility called `steempy`.
+`bear-python` is the official BEARShares library for Python. It comes with a
+BIP38 encrypted wallet and a practical CLI utility called `bearpy`. (rename after update)
 
 This library currently works on Python 2.7, 3.5 and 3.6. Python 3.3 and 3.4 support forthcoming.
 
