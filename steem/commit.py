@@ -189,6 +189,9 @@ class Commit(object):
         Setting category, tags or community will override the values provided
         in json_metadata and/or comment_options where appropriate.
 
+        WARNING! if you dont provide tags, json_metadata, community or category,
+        some RPC nodes will fail on RCP Link too short error!          
+
         Args:
 
         title (str): Title of the post
@@ -196,13 +199,15 @@ class Commit(object):
         author (str): Account are you posting from
         permlink (str): Manually set the permlink (defaults to None).
             If left empty, it will be derived from title automatically.
+            
         reply_identifier (str): Identifier of the parent post/comment (only
             if this post is a reply/comment).
+            
         json_metadata (str, dict): JSON meta object that can be attached to
             the post.
+
         comment_options (str, dict): JSON options object that can be
             attached to the post.
-
         Example::
             comment_options = {
                 'max_accepted_payout': '1000000.000 SBD',
