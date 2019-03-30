@@ -18,7 +18,7 @@ asset_precision = {
     "STEEM": 3,
     "VESTS": 6,
     "SBD": 3,
-}
+} # this DICT blocks operations on private chains, need to pull assets from /steembase/chains.py `known_chains` 
 
 
 class Operation:
