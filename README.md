@@ -8,7 +8,7 @@ BIP38 encrypted wallet and a practical CLI utility called `bearpy`. (rename afte
 
 This library currently works on Python 2.7, 3.5 and 3.6. Python 3.3 and 3.4 support forthcoming.
 
-# Do what what removed from the interface (website)
+# Do what was removed from the interface (website)
 
 #### Create accounts!
 
