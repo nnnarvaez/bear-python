@@ -23,14 +23,14 @@ With delegation (current cost 1 BEAR and about 30 delegated to the account)
 ```
 from bear import Bear
 bear = Bear(keys = "active-key-here") # your WIF/active keys
-bear.commit.create_account('newaccount', creator='youraccount',password='somepassword', delegation_fee_bear='30.000 BEARS')
+bear.commit.create_account('newaccount', creator='youraccount',password='somepassword', delegation_fee_bear='0.000 BEARS')
 ```
 
 #### Convert 1 BSD to 1 BEAR 
 Dont sell your BSD cheap in the market, don't scam youself... Convert them instead and help the platform get rid of the debt the BSD generate and increase your Vote Value
 
 ```
-acco = 'theAccountYouWantToCommentTO'
+acco = 'youraccount'
 from bear import Bear
 bear = Bear(keys = "active-key-here") # your WIF/active keys
 bsd = float(str.split(bear.beard.get_account(acco)['bsd_balance'])[0])
